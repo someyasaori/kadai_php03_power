@@ -17,7 +17,7 @@
         <p>URL<input type="text" name="url" id="url" size ="30"></p>
         <p>詳細<input type="text" name="details" id="details" size ="30"></p>
         <p>タグ
-        <select name="tag" id="tag" size ="15">
+        <select name="tag" id="tag">
             <option value="VPP">VPP</option>
             <option value="再エネ">再エネ</option>
             <option value="リソース">リソース</option>
