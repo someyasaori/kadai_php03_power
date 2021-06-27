@@ -36,17 +36,17 @@ if ($status == false) {
 
 <div class="update">
     <form method="POST" action="update.php">
-        <p>タイトル<input type="text" name="title" value ="<?=$result['title']?>" id="title" size ="15"></p>
-        <p>URL<input type="text" name="url" value ="<?=$result['url']?>" id="url" size ="30"></p>
-        <p>詳細<input type="text" name="details" value ="<?=$result['details']?>" id="details" size ="30"></p>
-        <p>タグ
+        <p class="centering">タイトル<input type="text" name="title" value ="<?=$result['title']?>" id="title" size ="15"></p>
+        <p class="centering">URL<input type="text" name="url" value ="<?=$result['url']?>" id="url" size ="30"></p>
+        <p class="centering">詳細<input type="text" name="details" value ="<?=$result['details']?>" id="details" size ="30"></p>
+        <p class="centering">タグ
         <select name="tag" value ="<?=$result['tag']?>" id="tag">
             <option value="VPP">VPP</option>
             <option value="再エネ">再エネ</option>
             <option value="リソース">リソース</option>
         </select></p>
         <p><input type="hidden" name ="id" value= "<?=$result['id']?>"></p>
-        <p><input type="submit" id="submit" value ="登録"></p>
+        <p class="centering"><input type="submit" id="submit" value ="登録"></p>
     </form> 
 </div>
 

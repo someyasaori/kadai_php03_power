@@ -143,5 +143,19 @@ td{
     font-size: 15px;
     text-align: center;
     margin-top: 50px;
-
 }
+
+/*detail.php*/
+.upadate{
+    max-width:1200px;
+    height: auto;
+    margin:auto;
+}
+
+.centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
