@@ -44,6 +44,10 @@ $status = $stmt->execute();
 // $indate_view = "";
 
 $view="";
+// require_once('funcs.php');
+// if($stmt==false){
+//     sql_error($stmt);
+// }else{
 
 if($status==false){
     $error = $stmt->errorInfor();

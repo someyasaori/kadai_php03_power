@@ -27,7 +27,7 @@ $stmt->bindValue(':id', $id, PDO::PARAM_INT);
 // 5. 実行
 $status = $stmt->execute();
 
-//４．データ削除処理後
+//４．データ編集処理後
 if ($status == false) {
     sql_error($stmt);
 } else {
